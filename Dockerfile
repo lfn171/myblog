@@ -5,7 +5,7 @@ COPY . /opt/myblog/
 WORKDIR /opt/myblog/
 
 RUN apt-get update
-RUN apt-get install -y python3.9 python3-pip
+RUN apt-get install -y python3 python3-pip
 RUN apt-get install -y pkg-config
 RUN apt-get install -y libmysqlclient-dev
 
